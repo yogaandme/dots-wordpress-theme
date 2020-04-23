@@ -25,7 +25,7 @@ nav {
 	display: none
 }
 html {
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Roboto', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%
 }
@@ -201,8 +201,8 @@ p:first-of-type::first-letter {
 }
 
   ul {
-    font-size: 17px;
-    display: flex;
+  font-size: 17px;
+  display: flex;
   justify-content: center;
   list-style-type: none;
   margin: 0 auto;
@@ -213,16 +213,22 @@ p:first-of-type::first-letter {
 }
 
 li {
-  font-size: 17px;
+	margin: 4px;
+  font-size: 14px;
   float: left;
 }
 
 li a {
+	margin-left: 4px;
+	background: #dbf9db;
   display: inline-block;
   color: #333;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
   text-decoration: none;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 li a:hover {
@@ -234,35 +240,8 @@ img{
   height: auto;
 }
 
-
-
-
-.reply {
-    float:right;
-    margin:0 10px 10px 0;
-    text-align:center;
-    background-color: #55737D;
-    border:1px solid #55737D;
-    border-radius:3px;
-    padding:3px;
-    width:50px;
-    box-shadow: 1px 1px 2px 2px #4f4f4f;
-}
-
-.comment article {
-    padding-bottom:2.79rem;
-}
-
-a.comment-reply-link,
-a.comment-edit-link {
-    color: #FFFFFF;
-    font-size: 13px;
-    font-size: 0.928571429rem;
-    line-height: 1.846153846;
-    text-decoration:none;
-}
-
-a.comment-reply-link:hover,
-a.comment-edit-link:hover {
-    color: #f6e7d7;
+.read_more{
+	font-size: 12px;
+	float: center;
+	color: #35C181;
 }
