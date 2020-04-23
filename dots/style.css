@@ -13,7 +13,7 @@ Text Domain: Dots
 */
 
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|News+Cycle&amp;display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Sofia|Delius+Swash+Caps|Roboto&display=swap');
 
 article,
 footer,
@@ -144,7 +144,7 @@ a:link {
 	height: 150px
 }
 .site_title {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Delius Swash Caps', sans-serif;
 	margin-bottom: 10px;
 	font-size: 30px;
 	font-weight: 500
@@ -154,17 +154,17 @@ a:link {
 	color: #fff
 }
 .site_tagline {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'sofia', sans-serif;
 	font-size: 17px;
 	font-weight: 200
 }
 p{
-	font-size: 1.2em;
-	line-height: 1.5em;
+	font-size: 1em;
+	line-height: 2em;
 }
 p:first-of-type::first-letter {
 	font-family: 'Great Vibes', serif;
-	font-size: 2em;
+	font-size: 1.8em;
 }
 .site_footer {
 	color: #000;
