@@ -162,7 +162,7 @@ p{
 	font-size: 1.2em;
 	line-height: 1.5em;
 }
-p:first-of-type::first-letter {
+.postcontent_list > p:first-child:first-of-type:first-letter{
 	font-family: 'Great Vibes', serif;
 	font-size: 2em;
 }
