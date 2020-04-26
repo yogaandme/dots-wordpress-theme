@@ -242,7 +242,7 @@ img{
 	padding: 10px;
 }
 
-textarea, input {border:1px solid #e4e4e4;}
+textarea, input {border:1px solid #e4e4e4; padding: 7px;}
 textarea {width:100%;}
 
 .comment-author,.comment-author a{text-align: left;font-size: 11px;text-transform: uppercase; letter-spacing: 2px;}
