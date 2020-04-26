@@ -9,11 +9,9 @@ License: The Unlicense
 License URI: https://unlicense.org/
 Tags: green, black, white, simple, fast, minimal, blog, clean, responsive, pagespeed, seo-ready, optimized
 Text Domain: Dots
-
 */
 
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|News+Cycle&amp;display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Sofia|Delius+Swash+Caps|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Delius+Swash+Caps|Roboto&display=swap');
 
 article,
 footer,
@@ -112,7 +110,7 @@ a:link {
 	color: #000
 }
 .title {
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.8rem;
 	font-weight: 400;
 	text-align: center;
@@ -141,10 +139,10 @@ a:link {
 	text-align: center;
 	font: sans-serif;
 	margin: 0 auto;
-	height: 150px
+	height: 140px
 }
 .site_title {
-  font-family: 'Delius Swash Caps', sans-serif;
+    font-family: 'Delius Swash Caps', sans-serif;
 	margin-bottom: 10px;
 	font-size: 30px;
 	font-weight: 500
@@ -154,15 +152,15 @@ a:link {
 	color: #fff
 }
 .site_tagline {
-  font-family: 'sofia', sans-serif;
-	font-size: 17px;
+    font-family: 'Delius Swash Caps', sans-serif;
+	font-size: 15px;
 	font-weight: 200
 }
-p{
+p, li{
 	font-size: 1em;
 	line-height: 2em;
 }
-p:first-of-type::first-letter {
+.postcontent_list > p:first-child:first-of-type:first-letter{
 	font-family: 'Great Vibes', serif;
 	font-size: 1.8em;
 }
@@ -196,29 +194,29 @@ p:first-of-type::first-letter {
 	}
 }
 .home-page-post-title {
-	font-size: 16px
+  font-size: 16px;
   list-style: square outside none;
 }
 
-  ul {
+  .menu ul {
   font-size: 17px;
   display: flex;
   justify-content: center;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #f0f8ff;
   margin-bottom: 40px;
 }
 
-li {
+.menu li {
 	margin: 4px;
   font-size: 14px;
   float: left;
 }
 
-li a {
+.menu li a {
 	margin-left: 4px;
 	background: #dbf9db;
   display: inline-block;
@@ -231,7 +229,7 @@ li a {
   border-radius: 10px;
 }
 
-li a:hover {
+.menu li a:hover {
   background-color: #e5ecf2;
 }
 
