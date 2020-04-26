@@ -77,7 +77,10 @@ if ( has_post_thumbnail() ) {
 
     </div>
 
-    
+    <div id = "comments_area">
+    <h3 id = "comments_title">Comments</h3>  
+    <?php comments_template(); ?>
+    </div>
 
     <!-- Footer -->
     <footer class="site_footer">
