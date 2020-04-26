@@ -54,7 +54,7 @@ h1 {
 	box-sizing: border-box
 }
 html {
-	font-size: 1.125em;
+	font-size: 17px;
 	font-family: 'Roboto', sans-serif;;
 	background-color: #f2f2f2
 }
@@ -185,18 +185,19 @@ p, li{
 	}
 }
 .home-page-post-title {
-  font-size: 16px;
+  font-size: 17px;
   list-style: square outside none;
 }
 
   .menu ul {
+	  align-items: center;
+  width: 100%;
   font-size: 17px;
   display: flex;
   justify-content: center;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  overflow: auto;
   background-color: #f0f8ff;
   margin-bottom: 40px;
 }
@@ -208,14 +209,15 @@ p, li{
 }
 
 .menu li a {
-	margin-left: 4px;
-	background: #dbf9db;
+  border: 1px solid rgb(255, 255, 255);	
+  margin-left: 4px;
+  background: #dbf9db;
   display: inline-block;
   color: #333;
   text-align: center;
   padding: 10px;
   text-decoration: none;
-	-webkit-border-radius: 10px;
+  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
@@ -227,6 +229,8 @@ p, li{
 img{
   max-width: 100%;
   height: auto;
+  padding: 3px;
+  border: 1px solid rgb(207, 207, 207);
 }
 
 .read_more{
@@ -257,7 +261,8 @@ textarea {width:100%;}
 #commentform input[type="submit"]:hover {background: #e2fcff;}
 
 .commentmetadata, .commentmetadata a{
-	margin-bottom: -20px;
+	margin-left: 1px;
+	margin-bottom: -15px;
 	margin-top: -10px;
 	font-size: 12px;
 	color: #818181;
@@ -269,7 +274,8 @@ textarea {width:100%;}
 	list-style: none;
 }
 
-.comment-body p{
+.comment-body p{	
+  font-size: 14px;
   border-radius: 10px;
   background: rgb(240, 240, 240);
   padding: 20px; 
