@@ -68,7 +68,7 @@
 				<p>
 					<a href="
 						<?php the_permalink(); ?>">
-						<?php the_title(); ?> <word class = "read_more">... Read more</word>
+						<?php the_title(); ?> <word class = "read_more"> - Read more</word>
 					</a>
 				</p>
 			</div>
