@@ -247,7 +247,7 @@ textarea {width:100%;}
 
 .comment-author,.comment-author a{text-align: left;font-size: 11px;text-transform: uppercase; letter-spacing: 2px;}
 
-#commentform, #reply-title{
+#commentform, #reply-title, .must-log-in{
 	margin-right: 20px;
 	margin-left: 20px;
 }
