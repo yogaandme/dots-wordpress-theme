@@ -33,6 +33,7 @@
       <?php
       wp_nav_menu(
         array(
+          'menu_class'        => "menu_top",
           'theme_location' => 'extra-menu',
           'container_class' => 'menu_top'
         )
@@ -51,7 +52,7 @@ if ( has_post_thumbnail() ) {
 }
           ?>
           <h1 class="title">
-            <a class "homepagepost_title" href="<?php the_permalink() ?>">
+            <a class href="<?php the_permalink() ?>">
               <?php the_title(); ?>
             </a>
           </h1>
@@ -70,9 +71,7 @@ if ( has_post_thumbnail() ) {
 
       <?php endwhile; endif; ?>
 
-      <div class="nav_links">
-        <?php posts_nav_link(); ?>
-      </div>
+  
 
 
     </div>
@@ -84,7 +83,8 @@ if ( has_post_thumbnail() ) {
 
     <!-- Footer -->
     <footer class="site_footer">
-      © <?php bloginfo('name'); ?>
+    <?php wp_nav_menu( array( 'menu_class' => "menu_bottom", 'theme_location' => 'secondary','container_class' => 'menu_bottom' ) ); ?> 
+      <p>@ <?php bloginfo('name'); ?></p>
     </footer>
 
   </div>

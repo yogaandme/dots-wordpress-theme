@@ -15,14 +15,10 @@ if ( function_exists( 'add_theme_support' ) ) {
     add_image_size( 'category-thumb', 300, 9999 ); // 300 pixels wide (and unlimited height)
  }
 
- function register_my_menus() {
-  register_nav_menus(
-    array(
-      'header-menu' => __( 'Header Menu' ),
-      'extra-menu' => __( 'Extra Menu' )
-     )
-   );
- }
- add_action( 'init', 'register_my_menus' );
+// This theme uses wp_nav_menu() in two locations.  
+register_nav_menus( array(  
+  'primary' => __( 'Primary Navigation', 'dots' ),  
+  'secondary' => __('Secondary Navigation', 'dots')  
+) );
 
 ?>

@@ -159,9 +159,14 @@ p, li{
 	font-size: 1.8em;
 }
 .site_footer {
+	background-color: #f0f8ff;
+	height: 1em;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	width: 100%;
+	display: table;
 	color: #000;
 	text-align: center;
-	line-height: 3rem;
 	font-size: .7777777777777777rem
 }
 @media (max-width: 44rem) {
@@ -189,46 +194,87 @@ p, li{
   list-style: square outside none;
 }
 
-  .menu ul {
-	  align-items: center;
-  width: 100%;
-  font-size: 17px;
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  background-color: #f0f8ff;
-  margin-bottom: 40px;
+.menu_top{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
 }
 
-.menu li {
-	margin: 4px;
-  font-size: 14px;
-  float: left;
+.menu_bottom {
+	font-size: 15px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
 }
 
-.menu li a {
-  height: 36px;
-  border: 1px solid rgb(255, 255, 255);	
-  margin-left: 4px;
-  background: #dbf9db;
+.menu_top ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f8ff;
+	text-align: center;
+	width:100%;
+	display:table;
+  }
+
+  .menu_bottom ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width:100%;
+	display:table;
+  }
+  
+  .menu_top ul li, .menu_bottom ul li {display: inline-block;}
+  
+  .menu_top ul li a {
+	font-family: 'Roboto', sans-serif;
+	  border: #fff 1px solid;
+	margin-left: 4px;
+	background: #dbf9db;
   display: inline-block;
-  color: #333;
+  color: rgb(68, 68, 68);
   text-align: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 5px;
   text-decoration: none;
-  -webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-}
+  font-size: 14px;
+  }
 
-.menu li a:hover {
-  background-color: #e5ecf2;
-}
+  .menu_bottom ul li a{
+	font-family: 'Roboto', sans-serif;
+  margin-left: 4px;
+display: inline-block;
+color: rgb(41, 41, 41);
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 7px;
+padding-right: 7px;
+margin: 5px;
+text-decoration: none;
+  }
+
+  .menu_top li a:hover {
+	background-color: #e5ecf2;
+  }
+        
+  /* @media screen and (max-width: 600px) {
+	.menu ul li.right, 
+	.menu ul li {float: none;}
+  } */
+
 
 img{
   max-width: 100%;
@@ -304,3 +350,4 @@ textarea {width:100%;}
 	display: none;
 	font-size: 17px;
 }
+
