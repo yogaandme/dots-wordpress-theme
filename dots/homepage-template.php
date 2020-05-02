@@ -43,12 +43,13 @@
 
       </div>
 			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'extra-menu',
-					'container_class' => 'menu_top'
-				)
-			);
+		 wp_nav_menu(
+      array(
+        'menu_class'        => "menu_top",
+        'theme_location' => 'extra-menu',
+        'container_class' => 'menu_top'
+      )
+    );
 			?>
     <!-- Posts Area -->
     <div class="posts_area">
@@ -68,13 +69,13 @@
 				<p>
 					<a href="
 						<?php the_permalink(); ?>">
-						<?php the_title(); ?> <word class = "read_more">... Read more</word>
+						<?php the_title(); ?> <word class = "read_more"> - Read more</word>
 					</a>
 				</p>
 			</div>
 			<?php  endforeach; ?>
 
-      <div class="nav_links">
+      <div class="topnav">
         <?php posts_nav_link(); ?>
       </div>
 
