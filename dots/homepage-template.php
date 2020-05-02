@@ -84,7 +84,8 @@
 
     <!-- Footer -->
     <footer class="site_footer">
-      © <?php bloginfo('name'); ?>
+    <?php wp_nav_menu( array( 'menu_class' => "menu_bottom", 'theme_location' => 'secondary','container_class' => 'menu_bottom' ) ); ?> 
+      <p>© <?php bloginfo('name'); ?></p>
     </footer>
 
   </div>
