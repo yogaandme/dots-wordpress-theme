@@ -5,6 +5,7 @@ Simple, clean and super fast Wordpress theme for blogs. Optimized for SEO and sp
 
 <br>
 <h3>Screenshots - mobile</h3>
+<br>
 
 <kbd>
 <img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot2.PNG" alt="Screenshot1" width="280px"/>
@@ -18,10 +19,11 @@ Simple, clean and super fast Wordpress theme for blogs. Optimized for SEO and sp
 
 <br>
 <h3>Screenshots - web</h3>
+<br>
 
 <kbd>
 <img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot3.PNG" alt="Screenshot2"/>
-</kbd> <br>
+</kbd> <br><br>
 <kbd>
 <img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot5.PNG" alt="Screenshot3"/>
 </kbd>
