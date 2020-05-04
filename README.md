@@ -14,7 +14,7 @@ Demo website - https://yogaandme.in/
 </kbd>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd>
-<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot1.png" alt="Screenshot2" width="280px"/>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot2.png" alt="Screenshot2" width="280px"/>
 </kbd>
 
 <br>
