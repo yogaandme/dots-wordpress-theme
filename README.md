@@ -10,11 +10,11 @@ Demo website: We use this theme on our own website - https://yogaandme.in/
 <br>
 
 <kbd>
-<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot1.png" alt="Screenshot1" width="280px"/>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot1.png" width="280px"/>
 </kbd>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd>
-<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot2.png" alt="Screenshot2" width="280px"/>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot2.png" width="280px"/>
 </kbd>
 
 <br>
@@ -22,8 +22,19 @@ Demo website: We use this theme on our own website - https://yogaandme.in/
 <br>
 
 <kbd>
-<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot3.PNG" alt="Screenshot2"/>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot3.PNG"/>
 </kbd> <br><br>
 <kbd>
-<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot5.PNG" alt="Screenshot3"/>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot5.PNG"/>
 </kbd>
+
+<br>
+<b>Question:</b>Is it fast ?
+<b>Answer</b>With minification done (you can use a wordpress plugin for that), this is the report from Google PageSpeed Insights -
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/page-speed-desktop.PNG"/>
+</kbd> <br><br>
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/page-speed-mobile.PNG"/>
+</kbd>
+
