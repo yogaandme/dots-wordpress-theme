@@ -30,7 +30,7 @@ Demo website: We use this theme on our own website - https://yogaandme.in/
 
 <br><br>
 <h3>Is it fast ?</h3><br>
-With minification done (you can use a wordpress plugin for that), this is the report from Google PageSpeed Insights <br><br>
+With minification and caching done (you can use a wordpress plugin for that), this is the report from Google PageSpeed Insights <br><br>
 <kbd>
 <img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/page-speed-desktop.PNG"/>
 </kbd> <br><br>
