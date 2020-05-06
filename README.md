@@ -3,7 +3,7 @@ Simple, clean and super fast Wordpress theme for blogs. Optimized for speed and 
 
 <a href= "https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/LICENSE">License</a>
 
-Demo website - https://yogaandme.in/
+Demo website: We use this theme on our own website - https://yogaandme.in/
 
 <br>
 <h3>Screenshots - mobile</h3>
