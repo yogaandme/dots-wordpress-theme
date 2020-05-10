@@ -17,7 +17,7 @@ Demo website: We use this theme on our own website - https://yogaandme.in/
 <img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot2.png" width="280px"/>
 </kbd>
 
-<br>
+<br><br>
 <h3>Screenshots - web</h3>
 <br>
 
