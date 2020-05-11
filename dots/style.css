@@ -1480,3 +1480,6 @@ textarea {
 .postcontent_list a:hover{
 	color: rgb(8, 83, 8);
 }
+.page_content{
+	height: 100%;
+}

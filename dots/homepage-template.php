@@ -1,6 +1,6 @@
 <?php   
    /*
-   * Template Name: Homepage Template
+   * Template Name: Dots Homepage Template
    * Custom template used for home
    * @package   Dots
    * @author    YogaAndMe team
