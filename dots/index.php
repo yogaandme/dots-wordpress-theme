@@ -50,8 +50,9 @@
                   </a>
                </h1>
                <div class="post_meta">
-                  <time class="post_date" datetime="<?php the_time('Y-m-d'); ?>" itemprop="datePublished">
-                  <?php the_time(__('F j, Y')); ?>
+                  <time class="post_date" datetime="<?php the_time('Y-m-d'); ?>">
+                  <?php esc_html_e( 'Posted on', 'dots' ); ?> <?php the_time( esc_html__( 'F j, Y', 'dots' ) ); ?> &#x25cf; 
+                  <?php esc_html_e( 'Last updated on', 'dots' ); ?> <?php the_modified_date( esc_html__( 'F j, Y', 'dots' ) ); ?>
                   </time>
                </div>
                <div class="postcontent_list" itemprop="articleBody" data-type-cleanup="true">
