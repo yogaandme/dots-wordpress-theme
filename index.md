@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Dots
+Simple, clean and super fast <b>Wordpress theme</b> for blogs. Optimized for speed and readability. Contains no unwanted libraries.
 
-You can use the [editor on GitHub](https://github.com/yogaandme/dots-wordpress-theme/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<a href= "https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/LICENSE">License</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Demo website: We use this theme on our own website - https://yogaandme.in/
 
-### Markdown
+<br>
+<h3>Screenshots - mobile</h3>
+<br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot1.png" width="280px"/>
+</kbd>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/mob-screenshot2.png" width="280px"/>
+</kbd>
 
-```markdown
-Syntax highlighted code block
+<br><br>
+<h3>Screenshots - web</h3>
+<br>
 
-# Header 1
-## Header 2
-### Header 3
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot3.PNG"/>
+</kbd> <br><br>
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/screenshot5.PNG"/>
+</kbd>
 
-- Bulleted
-- List
+<br><br>
+<h3>Is it fast ?</h3><br>
+With minification and caching done (you can use a wordpress plugin for that), this is the report from Google PageSpeed Insights <br><br>
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/page-speed-desktop.PNG"/>
+</kbd> <br><br>
+<kbd>
+<img src="https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/page-speed-mobile.PNG"/>
+</kbd>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yogaandme/dots-wordpress-theme/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
