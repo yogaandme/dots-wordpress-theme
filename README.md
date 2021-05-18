@@ -1,5 +1,5 @@
 # Dots
-Simple, clean, and super-fast WordPress theme for blogs. Optimized for speed & readability, has no unwanted libraries.
+Simple, clean, and super-fast WordPress theme for blogs. Contains zero unwanted libraries.
 
 <a href= "https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/LICENSE">License</a>
 
