@@ -3,7 +3,11 @@ Simple, clean, and super-fast WordPress theme for blogs. Contains zero unwanted 
 
 <a href= "https://raw.githubusercontent.com/yogaandme/dots-wordpress-theme/master/LICENSE">License</a>
 
-Demo website: We use this theme on our own website - https://yogaandme.in/
+
+### Demo website: 
+
+We use this theme on our own website where we write yoga and spiritual posts. <a href = "https://yogaandme.in">yogaandme.in</a> <br>
+The technical blog of co-creator of this theme also uses this theme - <a href = "ironmonkey.in">ironmonkey.in</a>
 
 <br>
 <h3>Screenshots - mobile</h3>
